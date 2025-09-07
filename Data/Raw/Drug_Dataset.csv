@@ -1,0 +1,300 @@
+Drug_ID,Drug Name,Molecular Formulae,Smiles,Subclass,Activity,Category
+DR001,ACARBOSE,C₂₅H₄₃NO₁₈,C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](O)O[C@@H]3CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O,Antidiabetic (α-glucosidase inhibitor),Active,Endocrine/Metabolic
+DR002,ACETAZOLAMIDE,C₄H₆N₄O₃S₂,CC(=O)Nc1nnc(S(N)(=O)=O)s1,Diuretic (Carbonic anhydrase inhibitor),Active,Renal/Metabolic
+DR003,ACITRETIN,C₂₁H₂₆O₃,COc1cc(C)c(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)c(C)c1C,Dermatological (Retinoid),Active,Oncology
+DR004,AFATINIB,C₂₄H₂₅ClFN₅O₃,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1,Antineoplastic (EGFR inhibitor),Active,Oncology
+DR005,ALBUTEROL,C₁₃H₂₁NO₃,CC(C)(C)NCC(O)c1ccc(O)c(CO)c1,Bronchodilator (Beta-2 agonist),Active,Respiratory
+DR006,ALISKIREN,C₃₀H₅₃N₃O₆,COCCCOc1cc(C[C@@H](C[C@H](N)[C@@H](O)C[C@H](C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC,Antihypertensive (Renin inhibitor),Active,Cardiovascular
+DR007,ALLOPURINOL,C₅H₄N₄O,Oc1ncnc2[nH]ncc12,Antigout (Xanthine oxidase inhibitor),Active,Metabolic
+DR008,ALPRAZOLAM,C₁₇H₁₃ClN₄,Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR009,AMBRISENTAN,C₂₂H₂₂N₂O₄,COC(c1ccccc1)(c1ccccc1)[C@H](Oc1nc(C)cc(C)n1)C(=O)O,"Antihypertensive (Endothelin receptor antagonist, Pulmonary hypertension)",Active,Cardiovascular
+DR010,AMILORIDE,C₆H₈ClN₇O,N=C(N)NC(=O)c1nc(Cl)c(N)nc1N,Diuretic (Potassium-sparing),Active,Cardiovascular
+DR011,AMLODIPINE,C₂₀H₂₅ClN₂O₅,CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl,Antihypertensive (Calcium channel blocker),Active,Cardiovascular
+DR012,AMPHETAMINE,C₉H₁₃N,CC(N)Cc1ccccc1,CNS Stimulant (Psychostimulant),Active,Neurological
+DR013,ANAGRELIDE,C₁₀H₇Cl₂N₃O,O=C1CN2Cc3c(ccc(Cl)c3Cl)N=C2N1,Antineoplastic (Thrombocytosis treatment),Active,Hematologic
+DR014,ANASTROZOLE,C₁₇H₁₉N₅,CC(C)(C#N)c1cc(Cn2cncn2)cc(C(C)(C)C#N)c1,Antineoplastic (Aromatase inhibitor),Active,Oncology
+DR015,APIXABAN,C₂₅H₂₅N₅O₄,COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(c2ccc(N4CCCCC4=O)cc2)CC3)cc1,Anticoagulant (Factor Xa inhibitor),Active,Hematologic
+DR016,APREPITANT,C₂₃H₂₁F₇N₄O₃,C[C@@H](O[C@H]1OCCN(Cc2n[nH]c(=O)[nH]2)[C@H]1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1,Antiemetic (Neurokinin-1 antagonist),Active,Oncology
+DR017,ARIPIPRAZOLE,C₂₃H₂₇Cl₂N₃O₂,O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,Antipsychotic (Atypical),Active,Psychiatric/Neurology
+DR018,ASPIRIN,C₉H₈O₄,CC(=O)Oc1ccccc1C(=O)O,Analgesic / Antipyretic / Antiplatelet (NSAID),Active,Cardiovascular
+DR019,ATENOLOL,C₁₄H₂₂N₂O₃,CC(C)NCC(O)COc1ccc(CC(N)=O)cc1,Antihypertensive (Beta-blocker),Active,Cardiovascular
+DR020,ATOMOXETINE,C₁₇H₂₁NO,CNCC[C@@H](Oc1ccccc1C)c1ccccc1,ADHD treatment (Norepinephrine reuptake inhibitor),Active,Psychiatric/Neurology
+DR021,ATORVASTATIN,C₃₃H₃₅FN₂O₅,CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O,Antihyperlipidemic (Statin),Active,Cardiovascular
+DR022,AXITINIB,C₂₂H₁₈N₄OS,CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1,Antineoplastic (VEGFR inhibitor),Active,Oncology
+DR023,Bortezomib,C₁₂H₂₅BN₂O₄,CC(C)C[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)c1cnccn1)B(O)O,Antineoplastic (Proteasome inhibitor),Active,Oncology
+DR024,Bosentan,C₂₁H₁₄N₄O₆S,COc1ccccc1Oc1c(NS(=O)(=O)c2ccc(C(C)(C)C)cc2)nc(-c2ncccn2)nc1OCCO,"Antihypertensive (Endothelin receptor antagonist, Pulmonary hypertension)",Active,Cardiovascular
+DR025,Bosutinib,C₂₆H₂₆N₄O₃S,COc1cc(Nc2c(C#N)cnc3cc(OCCCN4CCN(C)CC4)c(OC)cc23)c(Cl)cc1Cl,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR026,Budesonide,C₂₅H₃₄O₆,CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@]5(C)[C@H]4[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1,Corticosteroid (Anti-inflammatory),Active,Respiratory
+DR027,Bumetanide,C₁₂H₂₀N₂O₅S,CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1,Diuretic (Loop diuretic),Active,Cardiovascular
+DR028,Bupivacaine,C₁₈H₂₈N₂O,CCCCN1CCCCC1C(=O)Nc1c(C)cccc1C,Local Anesthetic (Amide-type),Active,Neurological
+DR029,Buprenorphine,C₂<0xE2><0x82><0x89>H₂<0xE2><0x82><0x89>NO₄,CO[C@@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5,Analgesic (Opioid partial agonist),Active,Neurological
+DR030,Bupropion,C₁₃H₁<0xE2><0x82><0x89>NOCl,CC(NC(C)(C)C)C(=O)c1cccc(Cl)c1,Antidepressant (NDRI),Active,Psychiatric
+DR031,Cabazitaxel,C₄₅H₅<0xE2><0x82><0x81>NO₁₄,CO[C@H]1C(=O)[C@]2(C)[C@@H](OC)C[C@H]3OC[C@@]3(OC(C)=O)[C@H]2[C@H](OC(=O)c2ccccc2)[C@]2(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c3ccccc3)C(C)=C1C2(C)C,Antineoplastic (Taxane derivative),Active,Oncology
+DR032,Calcitriol,C₂<0xE2><0x82><0x87>H₄₄O₃,C=C1/C(=C\C=C2/CCC[C@]3(C)[C@@H]([C@H](C)CCCC(C)(C)O)CC[C@@H]23)C[C@@H](O)C[C@@H]1O,Vitamin D analog (Metabolic bone disease treatment),Active,Endocrine/Metabolic
+DR033,Captopril,C<0xE2><0x82><0x89>H₁₅NO₃S,C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O,Antihypertensive (ACE inhibitor),Active,Cardiovascular
+DR034,Carbamazepine,C₁₅H₁₂N₂O,NC(=O)N1c2ccccc2C=Cc2ccccc21,Anticonvulsant (Mood stabilizer),Active,Neurological
+DR035,Carfilzomib,C₄₀H₅₂N₅O<0xE2><0x82><0x87>,CC(C)C[C@H](NC(=O)[C@H](CCc1ccccc1)NC(=O)CN1CCOCC1)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CC(C)C)C(=O)[C@@]1(C)CO1,Antineoplastic (Proteasome inhibitor),Active,Oncology
+DR036,Cariprazine,C₂₁H₃₂ClN₃O₂,CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1,Antipsychotic (Atypical),Active,Psychiatric/Neurology
+DR037,Carmustine,C₅H₁₁Cl₂N₃O₂,O=NN(CCCl)C(=O)NCCCl,Antineoplastic (Alkylating agent),Active,Oncology
+DR038,Carvedilol,C₂₄H₂₆N₂O₄,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,Antihypertensive (Beta-blocker + Alpha-blocker),Active,Cardiovascular
+DR039,Celecoxib,C₁<0xE2><0x82><0x87>H₁₄F₃N₃O₂S,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,Analgesic / Anti-inflammatory (COX-2 inhibitor NSAID),Active,Musculoskeletal
+DR040,Cetirizine,C₂₁H₂₅ClN₂O₃,O=C(O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1,Antihistamine (Allergy treatment),Active,Respiratory
+DR041,Chlorothiazide,C<0xE2><0x82><0x87>H₆ClN₃O₄S₂,NS(=O)(=O)c1cc2c(cc1Cl)N=CNS2(=O)=O,Diuretic (Thiazide diuretic),Active,Cardiovascular
+DR042,Chlorpromazine,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x89>ClN₂S,CN(C)CCCN1c2ccccc2Sc2ccc(Cl)cc21,"Antipsychotic (Typical, Phenothiazine)",Active,Psychiatric
+DR043,Chlorthalidone,C₁₄H₁₁ClN₂O₄S,NS(=O)(=O)c1cc(C2(O)NC(=O)c3ccccc32)ccc1Cl,Diuretic (Thiazide-like diuretic),Active,Cardiovascular
+DR044,Cimetidine,C₁₀H₁₆N₆S,CN/C(=N\CCSCc1nc[nH]c1C)NC#N,Antiulcer (H2 receptor antagonist),Active,Gastrointestinal
+DR045,Citalopram,C₂₀H₂₃FN₂O,CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21,Antidepressant (SSRI),Active,Psychiatric
+DR046,Clobazam,C₁₆H₁₃ClN₂O₂,CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21,Anticonvulsant (Benzodiazepine),Active,Neurological
+DR047,Clonidine,C<0xE2><0x82><0x89>H<0xE2><0x82><0x89>Cl₂N₃,Clc1cccc(Cl)c1NC1=NCCN1,Antihypertensive (Alpha-2 agonist),Active,Cardiovascular
+DR048,Codeine,C₁<0xE2><0x82><0x89>H₂₁NO₃,COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]341,Analgesic (Opioid),Active,Neurological
+DR049,Cortisone Acetate,C₂₃H₃₀O₆,CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3C(=O)C[C@@]21C,Corticosteroid (Anti-inflammatory),Active,Endocrine
+DR050,Crizotinib,C₂₁H₂₂ClN₅O,C[C@@H](Oc1cc(-c2cnn(C3CCNCC3)c2)cnc1N)c1c(Cl)ccc(F)c1Cl,Antineoplastic (ALK & ROS1 tyrosine kinase inhibitor),Active,Oncology
+DR051,Cytarabine,C<0xE2><0x82><0x89>H₁₃N₃O₅,Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1,"Antineoplastic (Antimetabolite, Pyrimidine analog)",Active,Oncology
+DR052,Desloratadine,C₁<0xE2><0x82><0x89>H₂₁ClN₂,Clc1ccc2c(c1)CCc1cccnc1C2=C1CCNCC1,Antihistamine (2nd gen H1 receptor antagonist),Active,Respiratory
+DR053,Desvenlafaxine,C₁₆H₂₅NO₂,CN(C)CC(c1ccc(O)cc1)C1(O)CCCCC1,Antidepressant (SNRI),Active,Psychiatric
+DR054,Dexamethasone,C₂₂H₂<0xE2><0x82><0x89>FO₅,C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO,"Corticosteroid (Anti-inflammatory, immunosuppressant)",Active,Endocrine
+DR055,Dextroamphetamine,C<0xE2><0x82><0x89>H₁₃N,C[C@H](N)Cc1ccccc1,CNS Stimulant (Psychostimulant),Active,Neurological
+DR056,Diclofenac,C₁₄H₁₁Cl₂NO₂,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR057,Docetaxel,C₄₃H₅₃NO₁₄,CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)[C@H](O)C3=C(C)[C@@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C,Antineoplastic (Taxane derivative),Active,Oncology
+DR058,Dutasteride,C₂<0xE2><0x82><0x87>H₄<0xE2><0x82><0x89>F₃NO₂,C[C@]12C=CC(=O)N[C@@H]1CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CC[C@@H]12,Androgen inhibitor (5-alpha reductase inhibitor),Active,Endocrine
+DR059,Eluxadoline,C₂₃H₃₀N₂O₅,COc1ccc(CN(C(=O)[C@@H](N)Cc2c(C)cc(C(N)=O)cc2C)[C@@H](C)c2ncc(-c3ccccc3)[nH]2)cc1C(=O)O,Gastrointestinal agent (Mixed opioid receptor modulator for IBS-D),Active,Gastrointestinal
+DR060,Enzalutamide,C₂₁H₂₁F₄N₃O₂S,CNC(=O)c1ccc(N2C(=S)N(c3ccc(C#N)c(C(F)(F)F)c3)C(=O)C2(C)C)cc1F,"Antineoplastic (Androgen receptor inhibitor, Prostate cancer)",Active,Oncology
+DR061,Eplerenone,C₂₄H₃₀O₆,COC(=O)[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@@]23O[C@@H]2C[C@@]2(C)[C@@H](CC[C@@]24CCC(=O)O4)[C@H]13,Antihypertensive (Aldosterone antagonist),Active,Cardiovascular
+DR062,Eribulin,C₄₀H₅<0xE2><0x82><0x89>NO₁₁,C=C1C[C@@H]2CC[C@@]34C[C@H]5O[C@H]6[C@@H](O3)[C@H]3O[C@H](CC[C@@H]3O[C@H]6[C@H]5O4)CC(=O)C[C@@H]3[C@@H](OC)[C@@H](C[C@H](O)CN)O[C@H]3C[C@H]3O[C@@H](CC[C@@H]1O2)C[C@@H](C)C3=C,Antineoplastic (Microtubule inhibitor),Active,Oncology
+DR063,Erlotinib,C₂₂H₂₃N₃O₄,C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1,Antineoplastic (EGFR tyrosine kinase inhibitor),Active,Oncology
+DR064,Eszopiclone,C₁<0xE2><0x82><0x87>H₁₅ClN₆O₃S,CN1CCN(C(=O)O[C@H]2c3nccnc3C(=O)N2c2ccc(Cl)cn2)CC1,Sedative-hypnotic (Non-benzodiazepine hypnotic),Active,Neurological
+DR065,Ethosuximide,C<0xE2><0x82><0x87>H₁₁NO₂,CCC1(C)CC(=O)NC1=O,Anticonvulsant (T-type calcium channel blocker),Active,Neurological
+DR066,Etodolac,C₁<0xE2><0x82><0x87>H₂₁NO₃,CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)O)OCC3,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR067,Everolimus,C₅₃H<0xE2><0x82><0x83>NO₁₃,CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OCCO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C,Antineoplastic / Immunosuppressant (mTOR inhibitor),Active,Oncology
+DR068,Exemestane,C₂₀H₂₄O₃,C=C1C[C@@H]2[C@H](CC[C@]3(C)C(=O)CC[C@@H]23)[C@@]2(C)C=CC(=O)C=C12,Antineoplastic (Aromatase inhibitor),Active,Oncology
+DR069,Exenatide,C₁<0xE2><0x82><0x89>H₄₅N₅O₁₂S,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@@H](NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)CNC(=O)[C@@H](N)Cc1cnc[nH]1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(N)=O)C(=O)NCC(=O)NCC(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(N)=O,Antidiabetic (GLP-1 receptor agonist),Active,Endocrine/Metabolic
+DR070,Ezetimibe,C₂₄H₂₁F₂NO₃,O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1,Antihyperlipidemic (Cholesterol absorption inhibitor),Active,Cardiovascular
+DR071,Famotidine,C<0xE2><0x82><0x87>H₁₅N<0xE2><0x82><0x87>O₃S₂,NC(N)=Nc1nc(CSCC/C(N)=N/S(N)(=O)=O)cs1,Antiulcer (H2 receptor antagonist),Active,Gastrointestinal
+DR072,Febuxostat,C₁₀H₁₀N₂O₃S,Cc1nc(-c2ccc(OCC(C)C)c(C#N)c2)sc1C(=O)O,Antigout (Xanthine oxidase inhibitor),Active,Metabolic
+DR073,Fentanyl,C₂₂H₂<0xE2><0x82><0x84>N₂O,CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1,"Analgesic (Opioid agonist, very potent)",Active,Neurological
+DR074,Finasteride,C₂₃H₃₆N₂O₂,CC(C)(C)NC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4NC(=O)C=C[C@]4(C)[C@H]3CC[C@]12C,Androgen inhibitor (5-alpha reductase inhibitor),Active,Endocrine
+DR075,Flurbiprofen,C₁₃H₁₁FO₂,CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR076,Fondaparinux,C₃₁H₄<0xE2><0x82><0x88>N₆Na₁₀O₄<0xE2><0x82><0x89>S<0xE2><0x82><0x81>,CO[C@H]1O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O[C@H]3O[C@H](COS(=O)(=O)O)[C@@H](O[C@@H]4O[C@H](C(=O)O)[C@@H](O[C@H]5O[C@H](COS(=O)(=O)O)[C@@H](O)[C@H](O)[C@H]5NS(=O)(=O)O)[C@H](O)[C@H]4O)[C@H](OS(=O)(=O)O)[C@H]3NS(=O)(=O)O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@H](O)[C@H]1NS(=O)(=O)O,"Anticoagulant (Factor Xa inhibitor, synthetic)",Active,Hematologic
+DR077,Fulvestrant,C₃₂H₄<0xE2><0x82><0x87>FO₅S,C[C@]12CC[C@@H]3c4ccc(O)cc4C[C@@H](CCCCCCCCC[S+]([O-])CCCC(F)(F)C(F)(F)F)[C@H]3[C@@H]1CC[C@@H]2O,Antineoplastic (Selective estrogen receptor degrader – SERD),Active,Oncology
+DR078,Furosemide,C₁₂H₁₁ClN₂O₅S,NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl,Diuretic (Loop diuretic),Active,Cardiovascular
+DR079,Gefitinib,C₂₂H₂₄ClFN₃O₄,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,Antineoplastic (EGFR tyrosine kinase inhibitor),Active,Oncology
+DR080,Glipizide,C₂₁H₂<0xE2><0x82><0x87>N₅O₄S,Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1,Antidiabetic (Sulfonylurea),Active,Endocrine/Metabolic
+DR081,Goserelin,C₅<0xE2><0x82><0x89>H<0xE2><0x82><0x89>N₁<0xE2><0x82><0x81>O₁₄,CC(C)C[C@H](NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1cnc[nH]1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N1CCC[C@H]1C(=O)NNC(N)=O,Antineoplastic / Hormonal therapy (GnRH agonist),Active,Oncology
+DR082,Granisetron,C₁<0xE2><0x82><0x87>H₂₄N₂O,CN1C2CCCC1CC(NC(=O)c1nn(C)c3ccccc13)C2,Antiemetic (5-HT3 receptor antagonist),Active,Oncology
+DR083,Guanfacine,C<0xE2><0x82><0x89>H₁₀ClN₃,N=C(N)NC(=O)Cc1c(Cl)cccc1Cl,"Antihypertensive (Alpha-2 agonist, also ADHD)",Active,Psychiatric/Neurology
+DR084,Haloperidol,C₂₁H₂₃ClFNO₂,O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1,"Antipsychotic (Typical, Butyrophenone)",Active,Psychiatric
+DR085,Hydrochlorothiazide,C<0xE2><0x82><0x87>H<0xE2><0x82><0x87>ClN₃O₄S₂,NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O,Diuretic (Thiazide diuretic),Active,Cardiovascular
+DR086,Hydroflumethiazide,C<0xE2><0x82><0x87>H<0xE2><0x82><0x87>F₃N₃O₄S₂,NS(=O)(=O)c1cc2c(cc1C(F)(F)F)NCNS2(=O)=O,Diuretic (Thiazide diuretic),Active,Cardiovascular
+DR087,Hydroxyprogesterone Caproate,C₂₁H₃₀O₄,CCCCCC(=O)O[C@]1(C(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C,Progestin (Hormonal therapy for preterm birth),Active,Endocrine
+DR088,Hydroxyurea,CH₄N₂O₂,NC(=O)NO,Antineoplastic (Ribonucleotide reductase inhibitor),Active,Hematologic
+DR089,Ibrutinib,C₂₁H₂₄N₆O₄,C=CC(=O)N1CCC[C@@H](n2nc(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,Antineoplastic (BTK inhibitor),Active,Oncology
+DR090,Ibuprofen,C₁₃H₁<0xE2><0x82><0x88>O₂,CC(C)Cc1ccc(C(C)C(=O)O)cc1,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR091,Imatinib,C₂<0xE2><0x82><0x89>H₃₁N<0xE2><0x82><0x87>O,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,"Antineoplastic (Tyrosine kinase inhibitor – BCR-ABL, KIT, PDGFR)",Active,Oncology
+DR092,Indapamide,C₁₆H₁₆ClN₃O₃S,CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(N)(=O)=O)c1,Diuretic (Thiazide-like diuretic),Active,Cardiovascular
+DR093,Irbesartan,C₂₅H₂<0xE2><0x82><0x88>N₆O,CCCCC1=NC2(CCCC2)C(=O)N1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1,Antihypertensive (Angiotensin II receptor blocker – ARB),Active,Cardiovascular
+DR094,Ixabepilone,C₂<0xE2><0x82><0x87>H₄₅NO₅S,C/C(=C\c1csc(C)n1)[C@@H]1C[C@@H]2O[C@]2(C)CCC[C@H](C)[C@H](O)[C@@H](C)C(=O)C(C)(C)[C@@H](O)CC(=O)N1,"Antineoplastic (Epothilone analog, microtubule inhibitor)",Active,Oncology
+DR095,Ketoprofen,C₁₆H₁₄O₃,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR096,Ketorolac,C₁₅H₁₃NO₃,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,"Analgesic (NSAID, strong pain relief)",Active,Musculoskeletal
+DR097,Lamotrigine,C<0xE2><0x82><0x89>H<0xE2><0x82><0x87>N₅,Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1,Anticonvulsant / Mood stabilizer,Active,Neurological
+DR098,Lansoprazole,C₁₆H₁₄N₃O₂S,Cc1c(OCC(F)(F)F)ccnc1C[S+]([O-])c1nc2ccccc2[nH]1,Antiulcer (Proton pump inhibitor – PPI),Active,Gastrointestinal
+DR099,Lapatinib,C₂₄H₂₆ClFN₄O₄S,CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1,Antineoplastic (EGFR & HER2 tyrosine kinase inhibitor),Active,Oncology
+DR100,Letrozole,C₁<0xE2><0x82><0x87>H₁₁N₅,N#Cc1ccc(C(c2ccc(C#N)cc2)n2cncn2)cc1,Antineoplastic (Aromatase Inhibitor),Active,Oncology
+DR101,Leuprolide,C₅₅H<0xE2><0x82><0x89>₅N₁₃O₁₃,CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@@H]1CCC(=O)N1,Antineoplastic (GnRH Agonist),Active,Oncology
+DR102,Levocetirizine,C₂₁H₂₅ClN₂O₃,O=C(O)COCCN1CCN([C@H](c2ccccc2)c2ccc(Cl)cc2)CC1,Antihistamine (Anti-allergic),Active,Respiratory
+DR103,Levothyroxine,C₁₅H₁₀I₄NNaO₄,N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O,Hormone Replacement (Thyroid),Active,Endocrine
+DR104,Lidocaine,C₁₄H₂₂N₂O,CCN(CC)CC(=O)Nc1c(C)cccc1C,Analgesic (Local Anesthetic),Active,Neurological
+DR105,Linaclotide,C₅<0xE2><0x82><0x81>H<0xE2><0x82><0x81>N₁₅O₁₂S₄,C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2,Gastrointestinal Agent (IBS/CIC),Active,Gastrointestinal
+DR106,Liraglutide,C₁<0xE2><0x82><0x87>₂H₁₃₀N₂₄O₄₁,CCCCCCCCCCCCCCCC(=O)N[C@@H](CCC(=O)NCCCC[C@H](NC(=O)[C@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CCC(N)=O)NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C)NC(=O)[C@@H](N)Cc1cnc[nH]1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@H](C(=O)N[C@@H](C)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)O)C(C)C)[C@@H](C)CC)C(=O)O,Antidiabetic (GLP-1 agonist),Active,Endocrine/Metabolic
+DR107,Lisinopril,C₂₁H₃₁N₃O₅,NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,Antihypertensive (ACE Inhibitor),Active,Cardiovascular
+DR108,Lorazepam,C₁₅H₁₀Cl₂N₂O₂,O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR109,Losartan,C₂₂H₂₃ClN₆O,CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1,Antihypertensive (ARB),Active,Cardiovascular
+DR110,Lubiprostone,C₂₀H₃₂O₅,CCCCC(F)(F)[C@@]1(O)CC[C@H]2[C@@H](CC(=O)[C@@H]2CCCCCCC(=O)O)O1,Gastrointestinal Agent (CIC),Active,Gastrointestinal
+DR111,Maraviroc,C₂<0xE2><0x82><0x89>H₃₆N₅O₄,Cc1nnc(C(C)C)n1[C@@H]1C[C@H]2CC[C@@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)c1ccccc1,Antiviral (HIV entry inhibitor),Active,Infectious
+DR112,Mesalamine,C<0xE2><0x82><0x87>H<0xE2><0x82><0x87>NO₃,Nc1ccc(O)c(C(=O)O)c1,Anti-inflammatory (IBD),Active,Autoimmune/GI
+DR113,Metformin,C₄H₁₁N₅,CN(C)C(=N)NC(=N)N,Antidiabetic (Biguanide),Active,Endocrine/Metabolic
+DR114,Methotrexate,C₂₀H₂₂N<0xE2><0x82><0x88>O₅,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,Antineoplastic / Immunosuppressant,Active,Autoimmune
+DR115,Methylnaltrexone,C₂₁H₃₄BrNO₄,C[N+]1(CC2CC2)CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5,Opioid Antagonist (GI motility),Active,Gastrointestinal
+DR116,Methylphenidate,C₁₄H₁<0xE2><0x82><0x89>NO₂,COC(=O)C(c1ccccc1)C1CCCCN1,CNS Stimulant (ADHD),Active,Neurological
+DR117,Metoprolol,C₁₅H₂₅NO₃,COCCc1ccc(OCC(O)CNC(C)C)cc1,Antihypertensive (Beta-blocker),Active,Cardiovascular
+DR118,Milnacipran,C₁₅H₂₂N₂O,CCN(CC)C(=O)C1(c2ccccc2)CC1CN,Antidepressant (SNRI),Active,Psychiatric
+DR119,Mirtazapine,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x89>N₃,CN1CCN2c3ncccc3Cc3ccccc3C2C1,Antidepressant (NaSSA),Active,Psychiatric
+DR120,Modafinil,C₁₅H₁₅NO₂S,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,CNS Stimulant (Narcolepsy),Active,Neurological
+DR121,Morphine,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x89>NO₃,CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,Analgesic (Opioid),Active,Neurological
+DR122,Naproxen,C₁₄H₁₄O₃,COc1ccc2cc([C@H](C)C(=O)O)ccc2c1,Analgesic / Antipyretic (NSAID),Active,Musculoskeletal
+DR123,Nicardipine,C₂₆H₂<0xE2><0x82><0x89>N₃O₆,COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(C)Cc2ccccc2)C1c1cccc([N+](=O)[O-])c1,Antihypertensive (Calcium channel blocker),Active,Cardiovascular
+DR124,Nicotine,C₁₀H₁₄N₂,CN1CCC[C@H]1c1cccnc1,CNS Stimulant (Smoking cessation),Active,Neurological
+DR125,Nitroglycerin,C₃H₅N₃O<0xE2><0x82><0x89>,O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-],Antianginal (Vasodilator),Active,Cardiovascular
+DR126,Olanzapine,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x89>N₄S,Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1,Antipsychotic (Atypical),Active,Psychiatric
+DR127,Ondansetron,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x89>N₃O,Cc1nccn1CC1CCc2c(c3ccccc3n2C)C1=O,Antiemetic (5-HT3 antagonist),Active,Oncology
+DR128,Oxazepam,C₁₅H₁₁ClN₂O₂,O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR129,Oxycodone,C₁<0xE2><0x82><0x89>H₂₁NO₄,COc1ccc2c3c1O[C@H]1C(=O)CC[C@@]4(O)[C@@H](C2)N(C)CC[C@]314,Analgesic (Opioid),Active,Neurological
+DR130,Oxymorphone,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x89>NO₄,CN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5,Analgesic (Opioid),Active,Neurological
+DR131,Oxyphenbutazone,C₁<0xE2><0x82><0x89>H₂₄N₂O₃,CCCCC1C(=O)N(c2ccccc2)N(c2ccc(O)cc2)C1=O,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR132,Oxytocin,C₄₃H₆₆N₁₂O₁₂S₂,CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O,Hormone (Uterotonic),Active,Endocrine
+DR133,Paclitaxel,C₄<0xE2><0x82><0x87>H₅₁NO₁₄,CC(=O)O[C@H]1C(=O)[C@@]2(C)[C@H]([C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O,Antineoplastic (Taxane),Active,Oncology
+DR134,Pantoprazole,C₁₆H₁₅N₃O₄S,COc1ccnc(C[S+]([O-])c2nc3cc(OC(F)F)ccc3[nH]2)c1OC,Proton Pump Inhibitor (PPI),Active,Gastrointestinal
+DR135,Pazopanib,C₂₁H₂₃N<0xE2><0x82><0x87>O₂S,Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR136,Perampanel,C₂₃H₁₅N₃O₂,N#Cc1ccccc1-c1cc(-c2ccccn2)cn(-c2ccccc2)c1=O,Antiepileptic (AMPA receptor antagonist),Active,Neurological
+DR137,Phentermine,C₁₂H₁<0xE2><0x82><0x89>N,CC(C)(N)Cc1ccccc1,CNS Stimulant (Weight loss),Active,Endocrine/Metabolic
+DR138,Phenytoin,C₁₅H₁₂N₂O₂,O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1,Antiepileptic (Sodium channel blocker),Active,Neurological
+DR139,Prednisolone,C₂₁H₂<0xE2><0x82><0x89>O₅,C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO,Corticosteroid (Anti-inflammatory),Active,Endocrine
+DR140,Pregabalin,C<0xE2><0x82><0x89>H₁<0xE2><0x82><0x87>NO₂,CC(C)C[C@H](CN)CC(=O)O,Antiepileptic / Neuropathic Pain,Active,Neurological
+DR141,Quetiapine,C₂₁H₂₅N₃O₂S,OCCOCCN1CCN(C2=Nc3ccccc3Sc3ccccc32)CC1,Antipsychotic (Atypical),Active,Psychiatric
+DR142,Rabeprazole,C₁<0xE2><0x82><0x89>H₂₁N₃O₃S,COCCCOc1ccnc(C[S+]([O-])c2nc3ccccc3[nH]2)c1C,Proton Pump Inhibitor (PPI),Active,Gastrointestinal
+DR143,Ramelteon,C₁₆H₂₁NO₂,CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3,Hypnotic (Melatonin receptor agonist),Active,Neurological
+DR144,Ranitidine,C₁₃H₂₂N₄O₃S,CNC(=C[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1,H2 Receptor Antagonist (Anti-ulcer),Active,Gastrointestinal
+DR145,Regorafenib,C₂₁H₁₂ClF₃N₄O₃,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR146,Risedronic Acid,C<0xE2><0x82><0x87>H₁₁NO<0xE2><0x82><0x87>P₂,O=P(O)(O)C(O)(Cc1cccnc1)P(=O)(O)O,Bisphosphonate (Osteoporosis treatment),Active,Musculoskeletal
+DR147,Risperidone,C₂₃H₂<0xE2><0x82><0x87>FN₄O₂,Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2,Antipsychotic (Atypical),Active,Psychiatric/Neurology
+DR148,Rivaroxaban,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x88>N₄O₅,O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1,Anticoagulant (Factor Xa inhibitor),Active,Hematologic
+DR149,Roflumilast,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x87>F₃N₂O₃,O=C(Nc1c(Cl)cncc1Cl)c1ccc(OC(F)F)c(OCC2CC2)c1,"Anti-inflammatory (PDE-4 inhibitor, COPD)",Active,Respiratory
+DR150,Rosuvastatin,C₂₂H₂<0xE2><0x82><0x88>CaF₃NO₆S,CC(C)c1nc(N(C)S(C)(=O)=O)nc(-c2ccc(F)cc2)c1/C=C/[C@@H](O)C[C@@H](O)CC(=O)O,Antihyperlipidemic (Statin),Active,Cardiovascular
+DR151,Rufinamide,C₁₀H<0xE2><0x82><0x88>F₃N₃O,NC(=O)c1cn(Cc2c(F)cccc2F)nn1,Antiepileptic (Sodium channel modulator),Active,Neurological
+DR152,Sildenafil,C₂₂H₃₀N₆O₄S,CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12,PDE-5 Inhibitor (Erectile dysfunction),Active,Cardiovascular
+DR153,Silodosin,C₂₃H₃₂N₄O₄,C[C@H](Cc1cc2c(c(C(N)=O)c1)N(CCCO)CC2)NCCOc1ccccc1OCC(F)(F)F,Alpha-1 Adrenergic Blocker (BPH),Active,Renal/Metabolic
+DR154,Spironolactone,C₂₄H₃₂O₄S,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,Diuretic (Aldosterone antagonist),Active,Cardiovascular
+DR155,Sunitinib,C₂₂H₂<0xE2><0x82><0x87>FN₃O₂S,CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR156,Suvorexant,C₂₃H₂₃N<0xE2><0x82><0x87>O₃S,Cc1ccc(-n2nccn2)c(C(=O)N2CCN(c3nc4cc(Cl)ccc4o3)CC[C@H]2C)c1,Hypnotic (Orexin receptor antagonist),Active,Neurological
+DR157,Tadalafil,C₂₂H₁<0xE2><0x82><0x89>N₃O₄,CN1CC(=O)N2[C@H](c3ccc4c(c3)OCO4)c3[nH]c4ccccc4c3C[C@@H]2C1=O,PDE-5 Inhibitor (Erectile dysfunction),Active,Cardiovascular
+DR158,Tamsulosin,C₂₀H₂<0xE2><0x82><0x88>N₂O₅S,CCOc1ccccc1OCCN[C@H](C)Cc1ccc(OC)c(S(N)(=O)=O)c1,Alpha-1 Adrenergic Blocker (BPH),Active,Renal/Metabolic
+DR159,Tapentadol,C₁₄H₂₃NO,CC[C@@H](c1cccc(O)c1)[C@@H](C)CN(C)C,Analgesic (Opioid + NE reuptake inhibitor),Active,Neurological
+DR160,Telmisartan,C₃₃H₃₀N₄O₃,CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1,Antihypertensive (ARB),Active,Cardiovascular
+DR161,Temsirolimus,C₅₆H<0xE2><0x82><0x87>₁NO₁₆,CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](OC(=O)C(C)(CO)CO)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C,Antineoplastic (mTOR inhibitor),Active,Oncology
+DR162,Teriparatide,C₁<0xE2><0x82><0x81>H₁₁₃N₂₂O₃₅,CC[C@H](C)[C@H](NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@@H](N)CO)C(C)C)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCSC)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@H](C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CC(=O)O)C(=O)N[C@H](C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](Cc1ccccc1)C(=O)O)C(C)C)C(C)C,"Hormone (Recombinant PTH, osteoporosis)",Active,Endocrine/Metabolic
+DR163,Theophylline,C<0xE2><0x82><0x87>H<0xE2><0x82><0x88>N₄O₂,Cn1c(=O)c2[nH]cnc2n(C)c1=O,Bronchodilator (Methylxanthine),Active,Respiratory
+DR164,Thioridazine,C₂₁H₂₆N₂S₂,CSc1ccc2c(c1)N(CCC1CCCCN1C)c1ccccc1S2,"Antipsychotic (Typical, phenothiazine)",Active,Psychiatric
+DR165,Ticagrelor,C₂₃H₂<0xE2><0x82><0x88>F₂N₆O₄S,CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,Antiplatelet (P2Y12 inhibitor),Active,Cardiovascular
+DR166,Tofacitinib,C₁₆H₂₀N₆O,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,Immunosuppressant (JAK inhibitor),Active,Autoimmune
+DR167,Topiramate,C₁₂H₂₁NO<0xE2><0x82><0x88>S,CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1,Antiepileptic (Multiple mechanisms),Active,Neurological
+DR168,Tramadol,C₁₆H₂₅NO₂,COc1cccc(C2(O)CCCCC2CN(C)C)c1,Analgesic (Opioid + Monoamine reuptake inhibitor),Active,Neurological
+DR169,Tranexamic Acid,C<0xE2><0x82><0x89>H₁₅NO₂,NC[C@H]1CC[C@H](C(=O)O)CC1,Antifibrinolytic (Hemostatic agent),Active,Hematologic
+DR170,Treprostinil,C₂₃H₃₄O₅,CCCCC[C@H](O)CC[C@@H]1[C@H]2Cc3cccc(OCC(=O)O)c3C[C@H]2C[C@H]1O,"Vasodilator (Prostacyclin analog, PAH)",Active,Cardiovascular
+DR171,Triamcinolone,C₂₁H₂<0xE2><0x82><0x87>FO₆,C[C@]12C=CC(=O)C=C1CC[C@H]1[C@@H]3C[C@@H](O)[C@](O)(C(=O)CO)[C@@]3(C)C[C@H](O)[C@@]12F,Corticosteroid (Anti-inflammatory),Active,Endocrine
+DR172,Triptorelin,C₆₄H<0xE2><0x82><0x82>₅N₁<0xE2><0x82><0x81>O₁₃,CC(C)C[C@H](NC(=O)[C@@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](Cc1c[nH]cn1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O,Antineoplastic (GnRH agonist),Active,Oncology
+DR173,Valproic Acid,C<0xE2><0x82><0x88>H₁₆O₂,CCCC(CCC)C(=O)O,Antiepileptic (Multiple mechanisms),Active,Neurological
+DR174,Valsartan,C₂₄H₂<0xE2><0x82><0x89>N₅O₃,CCCCC(=O)N(Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1)[C@H](C(=O)O)C(C)C,Antihypertensive (ARB),Active,Cardiovascular
+DR175,Vemurafenib,C₂₃H₁<0xE2><0x82><0x88>ClF₃N₂O₃S₂,CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F,Antineoplastic (BRAF inhibitor),Active,Oncology
+DR176,Venlafaxine,C₁<0xE2><0x82><0x87>H₂<0xE2><0x82><0x87>NO₂,COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1,Antidepressant (SNRI),Active,Psychiatric
+DR177,Vismodegib,C₂₃H₂₂ClN₃O₂S,CS(=O)(=O)c1ccc(C(=O)Nc2ccc(Cl)c(-c3ccccn3)c2)c(Cl)c1,Antineoplastic (Hedgehog pathway inhibitor),Active,Oncology
+DR178,Warfarin,C₁<0xE2><0x82><0x89>H₁₆O₄,CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O,Anticoagulant (Vitamin K antagonist),Active,Hematologic
+DR179,Zoledronic Acid,C₅H₁₀N₂O<0xE2><0x82><0x87>P₂,O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O,Bisphosphonate (Osteoporosis/cancer bone disease),Active,Musculoskeletal
+DR180,Zonisamide,C<0xE2><0x82><0x89>H<0xE2><0x82><0x88>N₂O₃S,NS(=O)(=O)Cc1noc2ccccc12,Antiepileptic (Sodium & T-type Ca blocker),Active,Neurological
+DR181,Alendronic Acid,C₄H₁₂NNaO<0xE2><0x82><0x87>P₂,NCCCC(O)(P(=O)(O)O)P(=O)(O)O,Bisphosphonate (Osteoporosis),Active,Musculoskeletal
+DR182,Alosetron,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x86>N₂O₃,Cc1[nH]cnc1CN1CCc2c(c3ccccc3n2C)C1=O,"Gastrointestinal Agent (5-HT3 antagonist, IBS)",Active,Gastrointestinal
+DR183,Amoxapine,C₁<0xE2><0x82><0x87>H₁₆ClN₃O,Clc1ccc2c(c1)C(N1CCNCC1)=Nc1ccccc1O2,Antidepressant (TCA),Active,Psychiatric
+DR184,Apremilast,C₂₂H₂₄N₄O₄,CCOc1cc([C@@H](CS(C)(=O)=O)N2C(=O)c3cccc(NC(C)=O)c3C2=O)ccc1OC,"Immunomodulator (PDE-4 inhibitor, psoriasis)",Active,Autoimmune
+DR185,Avanafil,C₂₂H₂₃N₆O₄,COc1ccc(CNc2nc(N3CCC[C@H]3CO)ncc2C(=O)NCc2ncccn2)cc1Cl,PDE-5 Inhibitor (Erectile dysfunction),Active,Cardiovascular
+DR186,Ceritinib,C₂<0xE2><0x82><0x87>H₃₁ClN₅O₄S,Cc1cc(Nc2ncc(Cl)c(Nc3ccccc3S(=O)(=O)C(C)C)n2)c(OC(C)C)cc1C1CCNCC1,Antineoplastic (ALK inhibitor),Active,Oncology
+DR187,Cyclosporine,C₆₂H₁₁₁N₁₁O₁₂,C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)CC(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C,Immunosuppressant (Calcineurin inhibitor),Active,Autoimmune
+DR188,Cyclothiazide,C₁₄H₁₆ClN₃O₄S₃,NS(=O)(=O)c1cc2c(cc1Cl)NC(C1CC3C=CC1C3)NS2(=O)=O,Diuretic (Thiazide-like),Active,Cardiovascular
+DR189,Dasatinib,C₂₂H₂₆ClN<0xE2><0x82><0x87>OS,Cc1nc(Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR190,Deserpidine,C₃₂H₃<0xE2><0x82><0x88>N₂O<0xE2><0x82><0x87>,COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5ccccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC,Antihypertensive (Reserpine derivative),Active,Cardiovascular
+DR191,Dexlansoprazole,C₁₆H₁₄F₃N₃O₂S,Cc1c(OCC(F)(F)F)ccnc1C[S@@+]([O-])c1nc2ccccc2[nH]1,Proton Pump Inhibitor (PPI),Active,Gastrointestinal
+DR192,Diazepam,C₁₆H₁₃ClN₂O,CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR193,Diazoxide,C<0xE2><0x82><0x87>H<0xE2><0x82><0x87>ClN₃O₂S,CC1=Nc2ccc(Cl)cc2S(=O)(=O)N1,"Vasodilator (K⁺ channel opener, antihypertensive)",Active,Endocrine/Metabolic
+DR194,Doxycycline Anhydrous,C₂₂H₂₄N₂O<0xE2><0x82><0x88>,C[C@H]1c2cccc(O)c2C(=O)C2=C(O)[C@]3(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21,Antibiotic (Tetracycline),Active,Infectious
+DR195,Erlosamide,C₁₂H₁₂N₂O₂,COC[C@@H](NC(C)=O)C(=O)NCc1ccccc1,Antineoplastic (Experimental / Not widely used),Active,Neurological
+DR196,Etretinate,C₂₀H₂<0xE2><0x82><0x88>O₃,CCOC(=O)/C=C(C)/C=C/C=C(C)/C=C/c1c(C)cc(OC)c(C)c1C,"Retinoid (Psoriasis, dermatological)",Active,Oncology
+DR197,Ezogabine,C₂₂H₂<0xE2><0x82><0x84>N₆O₂,CCOC(=O)Nc1ccc(NCc2ccc(F)cc2)cc1N,Antiepileptic (K⁺ channel opener),Active,Neurological
+DR198,Felbamate,C₁₁H₁₄N₂O₄,NC(=O)OCC(COC(N)=O)c1ccccc1,"Antiepileptic (NMDA antagonist, GABA modulator)",Active,Neurological
+DR199,Fluorouracil,C₄H₃FN₂O₂,O=c1[nH]cc(F)c(=O)[nH]1,Antineoplastic (Pyrimidine analog),Active,Oncology
+DR200,Glyburide,C₂₃H₂<0xE2><0x82><0x88>ClN₃O₅S,COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1,Antidiabetic (Sulfonylurea),Active,Endocrine/Metabolic
+DR201,Hydromorphone,C₁<0xE2><0x82><0x87>H₁<0xE2><0x82><0x89>NO₃,CN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@H]3[C@H]1C5,Analgesic (Opioid),Active,Neurological
+DR202,Ibandronic Acid,C<0xE2><0x82><0x89>H₁₃NO<0xE2><0x82><0x87>P₂,CCCCCN(C)CCC(O)(P(=O)(O)O)P(=O)(O)O,Bisphosphonate (Bone resorption inhibitor),Active,Musculoskeletal
+DR203,Indomethacin,C₁<0xE2><0x82><0x89>H₁₆ClNO₄,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,Analgesic / Antipyretic (NSAID),Active,Musculoskeletal
+DR204,Insulin Detemir,Approximately C₂₆H₄₂N₄O<0xE2><0x82><0x87> (monomer),CCCCCCCCCCCCCC(=O)NCCCC[C@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](Cc1ccccc1)NC(=O)CNC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCC(=O)O)NC(=O)CNC(=O)[C@@H]1CSSC[C@@H](C(=O)N[C@@H](CC(N)=O)C(=O)O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC(=O)[C@@H]2CSSC[C@H](NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)CN)[C@@H](C)CC)C(C)C)C(=O)N[C@@H](CSSC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc3c[nH]cn3)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](NC(=O)[C@@H](N)Cc3ccccc3)C(C)C)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H](Cc3c[nH]cn3)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](Cc3ccc(O)cc3)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N1)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CO)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N2)[C@@H](C)O)C(=O)O,Antidiabetic (Insulin analog),Active,Endocrine/Metabolic
+DR205,Ivabradine,C₂<0xE2><0x82><0x87>H₃₆N₂O₅,COc1cc2c(cc1OC)CC(=O)N(CCCN(C)C[C@H]1Cc3cc(OC)c(OC)cc31)CC2,Antianginal / Heart rate–lowering agent,Active,Cardiovascular
+DR206,Levetiracetam,C<0xE2><0x82><0x88>H₁₂N₂O₂,CC[C@@H](C(N)=O)N1CCCC1=O,Antiepileptic,Active,Neurological
+DR207,Levomepromazine,C₁<0xE2><0x82><0x89>H₂₂N₂OS,COc1ccc2c(c1)N(C[C@H](C)CN(C)C)c1ccccc1S2,Antipsychotic (Phenothiazine),Active,Psychiatric
+DR208,Mazindol,C₁₆H₁₃ClN₂O,OC1(c2ccc(Cl)cc2)c2ccccc2C2=NCCN21,Appetite Suppressant (Stimulant),Active,Endocrine/Metabolic
+DR209,Meperidine,C₁₅H₂₁NO₂,CCOC(=O)C1(c2ccccc2)CCN(C)CC1,Analgesic (Opioid),Active,Neurological
+DR210,Metharbital,C₁₁H₁₆N₂O₃,CCC1(CC)C(=O)NC(=O)N(C)C1=O,Antiepileptic (Barbiturate),Active,Neurological
+DR211,Methyclothiazide,C₁₁H₁₄Cl₃N₃O₄S₂,CN1C(CCl)Nc2cc(Cl)c(S(N)(=O)=O)cc2S1(=O)=O,Antihypertensive (Thiazide diuretic),Active,Cardiovascular
+DR212,Metolazone,C₁₆H₁₆ClN₃O₃S,Cc1ccccc1N1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2NC1C,Antihypertensive (Thiazide-like diuretic),Active,Cardiovascular
+DR213,Mitoxantrone,C₂₂H₂<0xE2><0x82><0x88>N₄O₆,O=C1c2c(O)ccc(O)c2C(=O)c2c(NCCNCCO)ccc(NCCNCCO)c21,Antineoplastic (Chemotherapy agent),Active,Oncology
+DR214,Montelukast,C₃₅H₃₆ClNO₃S,CC(C)(O)c1ccccc1CC[C@@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1,Leukotriene receptor antagonist (Antiasthmatic),Active,Respiratory
+DR215,Olaparib,C₂₄H₂₃FN₃O₃,O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(C(=O)C2CC2)CC1,Antineoplastic (PARP inhibitor),Active,Oncology
+DR216,Orlistat,C₂<0xE2><0x82><0x89>H₅₃NO₅,CCCCCCCCCCC[C@@H](C[C@@H]1OC(=O)[C@H]1CCCCCC)OC(=O)[C@H](CC(C)C)NC=O,Antiobesity agent (Lipase inhibitor),Active,Metabolic
+DR217,Paliperidone,C₂₃H₂<0xE2><0x82><0x87>FN₄O₃,Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O,Antipsychotic (Atypical),Active,Psychiatric
+DR218,Palonosetron,C₁<0xE2><0x82><0x89>H₂₄N₂O₃,O=C1c2cccc3c2[C@H](CCC3)CN1[C@@H]1CN2CCC1CC2,Antiemetic (5-HT3 antagonist),Active,Oncology
+DR219,Paricalcitol,C₂<0xE2><0x82><0x87>H₄₄O₃,C[C@H](/C=C/[C@H](C)C(C)(C)O)[C@H]1CC[C@H]2/C(=C/C=C3C[C@@H](O)C[C@H](O)C3)CCC[C@]12C,Vitamin D analog (Chronic kidney disease therapy),Active,Endocrine
+DR220,Perphenazine,C₂₁H₂₆ClN₃S,OCCN1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1,Antipsychotic (Typical),Active,Psychiatric
+DR221,Pinacidil,C₁₃H₁<0xE2><0x82><0x89>N₃O₄S,CC(N/C(=N\C#N)Nc1ccncc1)C(C)(C)C,Antihypertensive (Potassium channel opener),Active,Cardiovascular
+DR222,Pindolol,C₁₄H₂₀N₂O₂,CC(C)NCC(O)COc1cccc2[nH]ccc12,Antihypertensive (Beta-blocker),Active,Cardiovascular
+DR223,Plerixafor,C₂<0xE2><0x82><0x89>H₅₁N₁₁,c1cc(CN2CCCNCCNCCCNCC2)ccc1CN1CCCNCCNCCCNCC1,Hematopoietic stem cell mobilizer,Active,Oncology
+DR224,Polythiazide,C₁₁H₁₃ClF₃N₃O₄S₃,CN1C(CSCC(F)(F)F)Nc2cc(Cl)c(S(N)(=O)=O)cc2S1(=O)=O,Antihypertensive (Thiazide diuretic),Active,Cardiovascular
+DR225,Rescinnamine,C₃₅H₄₂N₂O<0xE2><0x82><0x89>,COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)/C=C/c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC,Antihypertensive (ACE inhibitor derivative),Active,Cardiovascular
+DR226,Tacrolimus,C₄₄H₆<0xE2><0x82><0x89>NO₁₂,C=CC[C@@H]1/C=C(\C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](/C(C)=C/[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC,Immunosuppressant (Calcineurin inhibitor),Active,Autoimmune
+DR227,Thiothixene,C₂₃H₂<0xE2><0x82><0x89>N₃O₂S₂,CN1CCN(CC/C=C2/c3ccccc3Sc3ccc(S(=O)(=O)N(C)C)cc32)CC1,Antipsychotic (Typical),Active,Psychiatric
+DR228,Timolol,C₁₃H₂₄N₄O₃S,CC(C)(C)NC[C@H](O)COc1nsnc1N1CCOCC1,Antihypertensive / Antiglaucoma (Beta-blocker),Active,Cardiovascular
+DR229,Tolvaptan,C₂₂H₂₅ClN₂O₄S,Cc1ccccc1C(=O)Nc1ccc(C(=O)N2CCCC(O)c3cc(Cl)ccc32)c(C)c1,Vasopressin receptor antagonist,Active,Renal/Metabolic
+DR230,Topotecan,C₂₃H₂₃N₃O₅,CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3c(CN(C)C)c(O)ccc3nc2-1,Antineoplastic (Topoisomerase inhibitor),Active,Oncology
+DR231,Tretinoin,C₂₀H₂<0xE2><0x82><0x88>O₂,CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)C(C)(C)CCC1,Retinoid (Dermatology / Oncology),Active,Oncology
+DR232,Trichlormethiazide,C<0xE2><0x82><0x87>H<0xE2><0x82><0x87>Cl₃N₃O₄S₂,NS(=O)(=O)c1cc2c(cc1Cl)NC(C(Cl)Cl)NS2(=O)=O,Antihypertensive (Thiazide diuretic),Active,Cardiovascular
+DR233,Triflupromazine,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x89>F₃N₂S,CN(C)CCCN1c2ccccc2Sc2ccc(C(F)(F)F)cc21,"Antipsychotic (Typical, Phenothiazine)",Active,Psychiatric
+DR234,Vandetanib,C₂₂H₂₄BrN₄O₂,COc1cc2/c(=N/c3ccc(Br)cc3F)nc[nH]c2cc1OCC1CCN(C)CC1,Antineoplastic (Tyrosine kinase inhibitor),Active,Oncology
+DR235,Vigabatrin,C₆H₁₁NO₂,C=CC(N)CCC(=O)O,Antiepileptic (GABA analog),Active,Neurological
+DR236,Vorinostat,C₁₄H₁₆N₂O₃,O=C(CCCCCCC(=O)Nc1ccccc1)NO,Antineoplastic (HDAC inhibitor),Active,Oncology
+DR237,Alprostadil,C₂₀H₃₄O₅,CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(=O)O,Vasodilator (Prostaglandin analog),Active,Cardiovascular
+DR238,Bendroflumethiazide,C₁₄H₁₂F₃N₃O₄S₂,NS(=O)(=O)c1cc2c(cc1C(F)(F)F)NC(Cc1ccccc1)NS2(=O)=O,Antihypertensive (Thiazide diuretic),Active,Cardiovascular
+DR239,Dabrafenib,C₂₃H₂₀F₃N₃O₂S₂,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,Antineoplastic (BRAF inhibitor),Active,Oncology
+DR240,Digitoxin,C₄₁H₆₄O₁₃,C[C@H]1O[C@@H](O[C@H]2[C@@H](O)C[C@H](O[C@H]3[C@@H](O)C[C@H](O[C@H]4CC[C@@]5(C)[C@H](CC[C@@H]6[C@@H]5CC[C@]5(C)[C@@H](C7=CC(=O)OC7)CC[C@]65O)C4)O[C@@H]3C)O[C@@H]2C)C[C@H](O)[C@@H]1O,Cardiac Glycoside (Inotrope),Active,Cardiovascular
+DR241,Dronabinol,C₂₁H₃₀O₂,CCCCCc1cc(O)c2c(c1)OC(C)(C)[C@@H]1CCC(C)=C[C@@H]21,Antiemetic / Appetite stimulant (Cannabinoid),Active,Neurological
+DR242,Epinephrine,C<0xE2><0x82><0x89>H₁₃NO₃,CNC[C@H](O)c1ccc(O)c(O)c1,Sympathomimetic (Adrenergic agonist),Active,Cardiovascular
+DR243,Fludarabine Phosphate,C₁₀H₁₅F₃N₂O<0xE2><0x82><0x87>P,Nc1nc(F)nc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@@H]1O,Antineoplastic (Purine analog),Active,Oncology
+DR244,Gemfibrozil,C₁₅H₂₂O₃,Cc1ccc(C)c(OCCCC(C)(C)C(=O)O)c1,Antilipemic (Fibrate),Active,Cardiovascular
+DR245,Glimepiride,C₂₄H₃₄N₄O₅S,CCC1=C(C)CN(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)N[C@H]3CC[C@H](C)CC3)cc2)C1=O,Antidiabetic (Sulfonylurea),Active,Endocrine/Metabolic
+DR246,Glucagon,C₁₅₃H₂₂₅N₄₃O₄<0xE2><0x82><0x89>S,CSCC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](C)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@@H](N)Cc1c[nH]cn1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H](C(=O)O)[C@@H](C)O,Antihypoglycemic / Antidiabetic emergency drug,Active,Endocrine
+DR247,Idarubicin,C₂₆H₂<0xE2><0x82><0x89>NO<0xE2><0x82><0x89>,CC(=O)[C@]1(O)Cc2c(O)c3c(c(O)c2[C@@H](O[C@H]2C[C@H](N)[C@H](O)[C@H](C)O2)C1)C(=O)c1ccccc1C3=O,Antineoplastic (Anthracycline),Active,Oncology
+DR248,Medroxyprogesterone Acetate,C₂₄H₃₄O₄,CC(=O)O[C@]1(C(C)=O)CC[C@H]2[C@@H]3C[C@H](C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C,Hormone therapy (Progestin),Active,Endocrine
+DR249,Megestrol Acetate,C₂₄H₃₂O₄,CC(=O)O[C@]1(C(C)=O)CC[C@H]2[C@@H]3C=C(C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@@]21C,Antineoplastic / Appetite stimulant (Progestin derivative),Active,Endocrine
+DR250,Mephenytoin,C₁₂H₁₄N₂O₂,CCC1(c2ccccc2)NC(=O)N(C)C1=O,Antiepileptic (Hydantoin derivative),Active,Neurological
+DR251,Mifepristone,C₂<0xE2><0x82><0x89>H₃₅NO₃,CC#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@@H](c3ccc(N(C)C)cc3)C[C@@]21C,"Antiprogestin (Abortifacient, hormone modulator)",Active,Endocrine
+DR252,Nadolol,C₁<0xE2><0x82><0x87>H₂<0xE2><0x82><0x87>NO₄,CC(C)(C)NCC(O)COc1cccc2c1C[C@H](O)[C@H](O)C2,Antihypertensive (Beta-blocker),Active,Cardiovascular
+DR253,Nifedipine,C₁<0xE2><0x82><0x87>H₂₀N₂O₆,COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-],Antihypertensive / Antianginal (Calcium channel blocker),Active,Cardiovascular
+DR254,Nizatidine,C₁₂H₂₁N₅OS₂,CNC(=C[N+](=O)[O-])NCCSCc1csc(CN(C)C)n1,Antiulcer (H2 receptor antagonist),Active,Gastrointestinal
+DR255,Palbociclib,C₂₄H₂<0xE2><0x82><0x89>N<0xE2><0x82><0x87>O₂,CC(=O)c1c(C)c2cnc(Nc3ccc(N4CCNCC4)cn3)nc2n(C2CCCC2)c1=O,Antineoplastic (CDK4/6 inhibitor),Active,Oncology
+DR256,Pentazocine,C₁<0xE2><0x82><0x87>H₂₃NO₃,CC(C)=CCN1CCC2(C)c3cc(O)ccc3CC1C2C,Analgesic (Opioid agonist-antagonist),Active,Neurological
+DR257,Phenylbutazone,C₁<0xE2><0x82><0x89>H₂₀N₂O₂,CCCCC1C(=O)N(c2ccccc2)N(c2ccccc2)C1=O,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR258,Piroxicam,C₁₅H₁₃N₃O₄S,CN1C(C(=O)Nc2ccccn2)=C(O)c2ccccc2S1(=O)=O,Analgesic / Anti-inflammatory (NSAID),Active,Musculoskeletal
+DR259,Riociguat,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x87>N₅O₂,COC(=O)N(C)c1c(N)nc(-c2nn(Cc3ccccc3F)c3ncccc23)nc1N,Vasodilator (sGC stimulator),Active,Cardiovascular
+DR260,Zolpidem,C₁<0xE2><0x82><0x89>H₂₁N₃O,Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1,Hypnotic (Non-benzodiazepine),Active,Neurological
+DR261,Alfuzosin,C₁<0xE2><0x82><0x89>H₄₂N₄O₄,COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC,Antihypertensive / Urologic (Alpha-1 blocker),Active,Renal/Metabolic
+DR262,Amitriptyline,C₂₀H₂₃N,CN(C)CCC=C1c2ccccc2CCc2ccccc21,Antidepressant (Tricyclic),Active,Psychiatric
+DR263,Atropine,C₁<0xE2><0x82><0x87>H₂₃NO₃,CN1[C@@H]2CC[C@H]1C[C@@H](OC(=O)C(CO)c1ccccc1)C2,Anticholinergic (Muscarinic antagonist),Active,Neurological
+DR264,Betamethasone,C₂₂H₂<0xE2><0x82><0x89>FO₅,C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO,Corticosteroid (Glucocorticoid),Active,Endocrine
+DR265,Carbachol,C₆H₁₅N₂O₂Cl,C[N+](C)(C)CCOC(N)=O,Cholinergic agonist (Parasympathomimetic),Active,Neurological
+DR266,Carglumic Acid,C₅H<0xE2><0x82><0x88>N₂O₄,NC(=O)N[C@@H](CCC(=O)O)C(=O)O,Enzyme activator (Hyperammonemia therapy),Active,Metabolic
+DR267,Cobicistat,C₄₀H₅₃N<0xE2><0x82><0x87>O₅S₂,CC(C)c1nc(CN(C)C(=O)N[C@@H](CCN2CCOCC2)C(=O)N[C@H](CC[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)Cc2ccccc2)cs1,Pharmacokinetic enhancer (CYP3A inhibitor),Active,Infectious
+DR268,Colchicine,C₂₂H₂₅NO₆,COc1cc2c(c(OC)c1OC)-c1ccc(OC)c(=O)cc1[C@@H](NC(C)=O)CC2,Antigout agent (Microtubule inhibitor),Active,Musculoskeletal
+DR269,Dichlorphenamide,C₆H₆Cl₂N₂O₄S₂,NS(=O)(=O)c1cc(Cl)c(Cl)c(S(N)(=O)=O)c1,Antiglaucoma / Diuretic (Carbonic anhydrase inhibitor),Active,Renal/Metabolic
+DR270,Diethylstilbestrol,C₁<0xE2><0x82><0x88>H₂₀O₂,CC/C(=C(/CC)c1ccc(O)cc1)c1ccc(O)cc1,Hormone therapy (Synthetic estrogen),Active,Endocrine
+DR271,Disulfiram,C₁₀H₂₀N₂S₄,CCN(CC)C(=S)SSC(=S)N(CC)CC,Alcohol deterrent (Aldehyde dehydrogenase inhibitor),Active,Neurological
+DR272,Dofetilide,C₁<0xE2><0x82><0x89>H₂<0xE2><0x82><0x89>N₃O₅S₂,CN(CCOc1ccc(NS(C)(=O)=O)cc1)CCc1ccc(NS(C)(=O)=O)cc1,Antiarrhythmic (Class III),Active,Cardiovascular
+DR273,Ergoloid,Mixture of alkaloids,CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C[C@@H]4c5cccc6[nH]cc(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12.CC(C)[C@@]1(NC(=O)[C@@H]2C[C@@H]3c4cccc5[nH]cc(c45)C[C@H]3N(C)C2)O[C@@]2(O)[C@@H]3CCCN3C(=O)[C@H](Cc3ccccc3)N2C1=O.CC(C)[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C[C@@H]4c5cccc6[nH]cc(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12.CCC(C)[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C[C@@H]4c5cccc6[nH]cc(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12,Nootropic / Vasodilator (Ergot alkaloid derivative),Active,Neurological
+DR274,Sonidegib,C₂₄H₂₃ClN₄O₃,Cc1c(C(=O)Nc2ccc(N3C[C@@H](C)O[C@@H](C)C3)nc2)cccc1-c1ccc(OC(F)(F)F)cc1,Antineoplastic (Hedgehog pathway inhibitor),Active,Oncology
+DR275,Ethacrynic Acid,C₁₃H₁₂Cl₂O₄,C=C(CC)C(=O)c1ccc(OCC(=O)O)c(Cl)c1Cl,Diuretic (Loop diuretic),Active,Renal/Metabolic
+DR276,Gabapentin,C<0xE2><0x82><0x89>H₁<0xE2><0x82><0x87>NO₂,NCC1(CC(=O)O)CCCCC1,Antiepileptic / Neuropathic pain agent,Active,Neurological
+DR277,Glycopyrronium,C₁<0xE2><0x82><0x89>H₂₃BrNO₃,C[N+]1(C)CCC(OC(=O)C(O)(c2ccccc2)C2CCCC2)C1,Anticholinergic (Muscarinic antagonist),Active,Respiratory
+DR278,Halazepam,C₁<0xE2><0x82><0x87>H₁₃ClF₃N₃O,O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC(F)(F)F,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR279,Idelalisib,C₂₂H₂₀N<0xE2><0x82><0x87>O₃,CC[C@H](Nc1ncnc2[nH]cnc12)c1nc2cccc(F)c2c(=O)n1-c1ccccc1,Antineoplastic (PI3Kδ inhibitor),Active,Oncology
+DR280,Lithium Carbonate,Li₂CO₃,O=C([O-])[O-].[Li+].[Li+],Mood stabilizer (Antimanic agent),Active,Psychiatric
+DR281,Lomitapide,C₂<0xE2><0x82><0x89>H₃₃ClN₂O₄,O=C(NC1CCN(CCCCC2(C(=O)NCC(F)(F)F)c3ccccc3-c3ccccc32)CC1)c1ccccc1-c1ccc(C(F)(F)F)cc1,Antilipemic (Microsomal triglyceride transfer protein inhibitor),Active,Metabolic
+DR282,Methazolamide,C₅H<0xE2><0x82><0x88>N₂O₃S₂,CC(=O)/N=c1/sc(S(N)(=O)=O)nn1C,Antiglaucoma agent (Carbonic anhydrase inhibitor),Active,Renal/Metabolic
+DR283,Methsuximide,C₁₁H₁<0xE2><0x82><0x89>NO₂,CN1C(=O)CC(C)(c2ccccc2)C1=O,Antiepileptic (Succinimide),Active,Neurological
+DR284,Pentostatin,C₁₁H₁₆N₄O₄,OC[C@H]1O[C@@H](n2cnc3c2N=CNC[C@H]3O)C[C@@H]1O,"Antineoplastic (Purine analog, ADA inhibitor)",Active,Oncology
+DR285,Phenacemide,C<0xE2><0x82><0x89>H₁₀N₂O₂,NC(=O)NC(=O)Cc1ccccc1,Antiepileptic (Hydantoin derivative),Active,Neurological
+DR286,Phensuximide,C₁₁H₁₃NO₂,CN1C(=O)CC(c2ccccc2)C1=O,Antiepileptic (Succinimide),Active,Neurological
+DR287,Pilocarpine,C₁₁H₁₆N₂O₂,CC[C@@H]1C(=O)OC[C@@H]1Cc1cncn1C,"Cholinergic agonist (Parasympathomimetic, miotic)",Active,Neurological
+DR288,Pralatrexate,C₂₂H₂₃N<0xE2><0x82><0x87>O₅,C#CCC(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1,Antineoplastic (Folate analog metabolic inhibitor),Active,Oncology
+DR289,Prazepam,C₁<0xE2><0x82><0x89>H₁<0xE2><0x82><0x87>ClN₂O₃,O=C1CN=C(c2ccccc2)c2cc(Cl)ccc2N1CC1CC1,Anxiolytic (Benzodiazepine),Active,Psychiatric
+DR290,Sucralfate,C₁₂H₂₂Al<0xE2><0x82><0x80>(OH)₃O₅S₄.xH₂O,O=S(=O)(OC[C@H]1O[C@@H](O[C@]2(COS(=O)(=O)O[Al](O)O)O[C@H](OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@@H]2OS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@@H]1OS(=O)(=O)O[Al](O)O)O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O.O[Al](O)O,Antiulcer agent (Gastroprotective),Active,Gastrointestinal
+DR291,Sulfinpyrazone,C₂₃H₂₀N₂O₃S,O=C1C(CC[S+]([O-])c2ccccc2)C(=O)N(c2ccccc2)N1c1ccccc1,Antigout agent (Uricosuric),Active,Musculoskeletal
+DR292,Triamcinolone Acetonide,C₂₄H₃₁FO₆,CC1(C)O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@]5(C)[C@@]4(F)[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1,Corticosteroid (Glucocorticoid),Active,Endocrine
+DR293,Zafirlukast,C₃₁H₃₃N₃O₆S,COc1cc(C(=O)NS(=O)(=O)c2ccccc2C)ccc1Cc1cn(C)c2ccc(NC(=O)OC3CCCC3)cc12,Antiasthmatic (Leukotriene receptor antagonist),Active,Respiratory
+DR294,Aminocaproic Acid,C₆H₁₃NO₂,NCCCCCC(=O)O,Antifibrinolytic (Hemostatic agent),Active,Hematologic
+DR295,Belinostat,C₁₄H₁₄N₂O₂S,O=C(/C=C/c1cccc(S(=O)(=O)Nc2ccccc2)c1)NO,Antineoplastic (HDAC inhibitor),Active,Oncology
+DR296,Bretylium,C₁₁H₁<0xE2><0x82><0x88>BrN₂,CC[N+](C)(C)Cc1ccccc1Br,Antiarrhythmic (Adrenergic neuron blocker),Active,Cardiovascular
+DR297,Degarelix,C<0xE2><0x82><0x80>₂H<0xE2><0x82><0x89>₂N₁₄O₁₂,CC(=O)N[C@H](Cc1ccc2ccccc2c1)C(=O)N[C@H](Cc1ccc(Cl)cc1)C(=O)N[C@H](Cc1cccnc1)C(=O)N[C@@H](CO)C(=O)N[C@@H](Cc1ccc(NC(=O)[C@@H]2CC(=O)NC(=O)N2)cc1)C(=O)N[C@H](Cc1ccc(NC(N)=O)cc1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Antineoplastic (GnRH antagonist),Active,Oncology
+DR298,Deslanoside,C₄<0xE2><0x82><0x87>H₆₄O₁<0xE2><0x82><0x89>,C[C@H]1O[C@@H](O[C@H]2CC[C@@]3(C)[C@H](CC[C@@H]4[C@@H]3C[C@@H](O)[C@]3(C)[C@@H](C5=CC(=O)OC5)CC[C@]43O)C2)C[C@H](O)[C@@H]1O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](C)O2)[C@@H](C)O1,Cardiac glycoside (Inotrope),Active,Cardiovascular
+DR299,Droperidol,C₂₂H₂₂FN₃O₂,O=C(CCCN1CC=C(n2c(=O)[nH]c3ccccc32)CC1)c1ccc(F)cc1,Antiemetic / Antipsychotic (Butyrophenone),Active,Psychiatric
