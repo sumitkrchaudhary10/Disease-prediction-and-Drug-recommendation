@@ -40,8 +40,8 @@ def main():
             rf_pred = predict_drugs_by_name(final_disease, "rf")
             svm_pred = predict_drugs_by_name(final_disease, "svm")
 
-            print("\nRandom Forest Prediction:\n", rf_pred)
-            print("\nSVM Prediction:\n", svm_pred)
+            # print("\nRandom Forest Prediction:\n", rf_pred)
+            # print("\nSVM Prediction:\n", svm_pred)
             
             # Slice the DataFrames to show only the top 2 recommendations
             print("\nRandom Forest Prediction:\n", rf_pred.head(2))
