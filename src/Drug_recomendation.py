@@ -19,15 +19,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 # Load base datasets
-diseases = pd.read_excel("/content/sample_data/Disease_Dataset_Major_project.xlsx")
-drugs = pd.read_excel("/content/sample_data/Drug_Dataset_Major_project.xlsx")
-
-# # Show unique categories in both datasets
-# print("🟢 Disease Categories:")
-# print(diseases["Category"].unique())
-
-# print("\n🔵 Drug Categories:")
-# print(drugs["Category"].unique())
+diseases = pd.read_csv("/Users/rameshkumar/Desktop/PROJECT_RESUME/Disease-prediction-and-Drug-recommendation/Data/Raw/Disease_Dataset_Category.csv")
+drugs = pd.read_csv("/Users/rameshkumar/Desktop/PROJECT_RESUME/Disease-prediction-and-Drug-recommendation/Data/Raw/Drug_Dataset.csv")
 
 # Clean categories to avoid mismatch
 diseases["Category"] = diseases["Category"].str.strip().str.lower()
@@ -46,7 +39,7 @@ for _, disease in diseases.iterrows():
     possible_drugs = drugs[drugs["Category"] == disease_cat]
 
     # if possible_drugs.empty:
-    #     print(f"⚠️ No drugs found for DiseaseID {disease_id} with category {disease_cat}")
+    #     print(f" No drugs found for DiseaseID {disease_id} with category {disease_cat}")
     #     continue  # skip if no matching drugs
 
     # Select 2–3 drugs from the matching category
@@ -68,7 +61,7 @@ for _, disease in diseases.iterrows():
 mapping_df = pd.DataFrame(rows)
 
 if mapping_df.empty:
-    raise ValueError("❌ Mapping failed: No rows generated. Check category alignment!")
+    raise ValueError(" Mapping failed: No rows generated. Check category alignment!")
 
 # Normalize percentages per disease
 mapping_df["Percentage"] = mapping_df.groupby("DiseaseID")["Percentage"].transform(
@@ -76,7 +69,7 @@ mapping_df["Percentage"] = mapping_df.groupby("DiseaseID")["Percentage"].transfo
 )
 
 # Save for reuse
-mapping_df.to_csv("disease_drug_map.csv", index=False)
+mapping_df.to_csv("/Users/rameshkumar/Desktop/PROJECT_RESUME/Disease-prediction-and-Drug-recommendation/Data/Processed/disease_drug_map.csv", index=False)
 print(" disease_drug_map.csv created successfully (Category-based mapping)!")
 
 # =====================================
@@ -103,3 +96,147 @@ print("Shape of y:", y.shape)
 # STEP 2B: Train-Test Split
 # -----------------------------
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# -----------------------------
+# STEP 3A: Random Forest Model
+# -----------------------------
+rf_model = MultiOutputRegressor(RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1))
+rf_model.fit(X_train, y_train)
+
+rf_pred = rf_model.predict(X_test)
+rf_r2 = r2_score(y_test, rf_pred)
+rf_rmse = np.sqrt(mean_squared_error(y_test, rf_pred))
+rf_mae = mean_absolute_error(y_test, rf_pred)
+
+print("\n Random Forest Performance:")
+print(f"R² Score: {rf_r2:.4f}")
+print(f"RMSE: {rf_rmse:.4f}")
+print(f"MAE: {rf_mae:.4f}")
+
+# -----------------------------
+# STEP 3B: SVM Model
+# -----------------------------
+svm_model = MultiOutputRegressor(SVR(kernel="rbf", C=10, gamma="scale"))
+svm_model.fit(X_train, y_train)
+
+svm_pred = svm_model.predict(X_test)
+svm_r2 = r2_score(y_test, svm_pred)
+svm_rmse = np.sqrt(mean_squared_error(y_test, svm_pred))
+svm_mae = mean_absolute_error(y_test, svm_pred)
+
+print("\n SVM Performance:")
+print(f"R² Score: {svm_r2:.4f}")
+print(f"RMSE: {svm_rmse:.4f}")
+print(f"MAE: {svm_mae:.4f}")
+
+
+# -----------------------------
+# STEP 4: Comparison Chart
+# -----------------------------
+metrics = ["R² Score", "RMSE", "MAE"]
+rf_values = [rf_r2, rf_rmse, rf_mae]
+svm_values = [svm_r2, svm_rmse, svm_mae]
+
+x = np.arange(len(metrics))
+width = 0.35
+
+plt.figure(figsize=(8,6))
+plt.bar(x - width/2, rf_values, width, label="Random Forest", color="forestgreen")
+plt.bar(x + width/2, svm_values, width, label="SVM", color="royalblue")
+
+plt.xticks(x, metrics)
+plt.ylabel("Score Value")
+plt.title("Random Forest vs SVM Performance Comparison")
+plt.legend()
+plt.savefig("images/disease_class_distribution.png", dpi=300, bbox_inches='tight')
+plt.close()
+
+# -----------------------------
+# STEP 5: Save Models
+# -----------------------------
+joblib.dump(rf_model, "/Users/rameshkumar/Desktop/PROJECT_RESUME/Disease-prediction-and-Drug-recommendation/Data/Processed/Processedrf_model.pkl")
+joblib.dump(svm_model, "/Users/rameshkumar/Desktop/PROJECT_RESUME/Disease-prediction-and-Drug-recommendation/Data/Processed/Processedsvm_model.pkl")
+
+
+# -----------------------------
+# STEP 6: Prediction Function
+# -----------------------------
+def predict_drugs_by_name(disease_name: str, model_choice="rf"):
+    # Select model
+    model = rf_model if model_choice.lower() == "rf" else svm_model
+
+    # Get disease row
+    disease_row = diseases[diseases["Disease"].str.lower() == disease_name.lower()]
+    if disease_row.empty:
+        return f" Disease '{disease_name}' not found in dataset."
+
+    # Drop ID + Name, keep only features
+    disease_features = disease_row.drop(["Disease_ID", "Disease"], axis=1).iloc[0].to_dict()
+
+    # Convert input
+    sample_X = pd.DataFrame([disease_features])
+    sample_X = pd.get_dummies(sample_X)
+    sample_X = sample_X.reindex(columns=X.columns, fill_value=0)
+
+    # Predict
+    pred = model.predict(sample_X)[0]
+
+    # Apply smoothing
+    pred = np.maximum(pred, 0.01)
+
+    # Normalize
+    pred = (pred / pred.sum()) * 100
+    pred = np.round(pred, 2)
+
+    # Create results
+    predicted_drugs = pd.DataFrame({
+        "Drug Name": drugs.set_index("Drug_ID").loc[y_pivot.columns, "Drug Name"].values,
+        "Predicted_Effectiveness(%)": pred
+    }).sort_values(by="Predicted_Effectiveness(%)", ascending=False)
+
+    return predicted_drugs
+# -----------------------------
+# STEP 7: Example run
+# -----------------------------
+user_input = input("Enter the Disease: ")
+words = user_input.split()
+capitalized_words = [word.capitalize() for word in words]
+result = " ".join(capitalized_words)
+
+# Run prediction using Random Forest
+predicted_rf = predict_drugs_by_name(result, model_choice="rf")
+
+# Run prediction using SVM
+predicted_svm = predict_drugs_by_name(result, model_choice="svm")
+
+# -----------------------------
+# Random Forest Results
+# -----------------------------
+print(f"\n Predicted Drug Combinations for {user_input} using Random Forest:\n")
+
+print(f"Most Effective Drugs for {user_input} are:")
+effective_rf = predicted_rf.head(2)
+for _, row in effective_rf.iterrows():
+    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
+
+print(f"\nLess Effective Drugs for {user_input} are:")
+less_effect_rf = predicted_rf.tail(2)
+for _, row in less_effect_rf.iterrows():
+    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
+
+# -----------------------------
+# SVM Results
+# -----------------------------
+print(f"\n Predicted Drug Combinations for {user_input} using SVM:\n")
+
+print(f"Most Effective Drugs for {user_input} are:")
+effective_svm = predicted_svm.head(2)
+for _, row in effective_svm.iterrows():
+    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
+
+print(f"\nLess Effective Drugs for {user_input} are:")
+less_effect_svm = predicted_svm.tail(2)
+for _, row in less_effect_svm.iterrows():
+    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
+
+
