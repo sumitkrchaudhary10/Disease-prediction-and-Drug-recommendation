@@ -1,0 +1,39 @@
+Disease_ID,Disease,Category
+D001,Paralysis (brain hemorrhage),Neurological
+D002,Hypertension,Cardiovascular
+D003,Hepatitis B,Infectious
+D004,Impetigo,Infectious
+D005,Chronic cholestasis,Gastrointestinal
+D006,Hepatitis C,Infectious
+D007,Typhoid,Infectious
+D008,Dimorphic hemorrhoids (piles),Gastrointestinal
+D009,Vertigo (BPPV),Neurological
+D010,Cervical spondylosis,Musculoskeletal
+D011,Tuberculosis,Infectious/Respiratory
+D012,Hyperthyroidism,Endocrine
+D013,Malaria,Infectious
+D014,Gastroenteritis,Gastrointestinal
+D015,Osteoarthritis,Musculoskeletal
+D016,Heart attack,Cardiovascular
+D017,Dengue,Infectious
+D018,Pneumonia,Respiratory/Infectious
+D019,Urinary tract infection,Infectious
+D020,Hypoglycemia,Endocrine/Metabolic
+D021,Bronchial Asthma,Respiratory
+D022,Arthritis,Autoimmune
+D023,Hepatitis D,Infectious
+D024,Hypothyroidism,Endocrine
+D025,Acne,Metabolic
+D026,GERD,Gastrointestinal
+D027,Peptic ulcer disease,Gastrointestinal
+D028,Psoriasis,Autoimmune
+D029,Drug Reaction,Autoimmune/Neurology
+D030,Diabetes,Endocrine/Metabolic
+D031,Varicose veins,Cardiovascular
+D032,Hepatitis A,Infectious
+D033,Hepatitis E,Infectious
+D034,Migraine,Neurological
+D035,Allergy,Autoimmune
+D036,Jaundice,Gastrointestinal
+D037,AIDS,Infectious
+D038,Alcoholic hepatitis,Gastrointestinal
