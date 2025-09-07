@@ -1,0 +1,18 @@
+# Core ML & Data Science
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Model Explainability
+shap
+
+# Deployment
+flask
+streamlit
+
+# Utilities
+joblib
