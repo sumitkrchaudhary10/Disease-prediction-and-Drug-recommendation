@@ -195,48 +195,7 @@ def predict_drugs_by_name(disease_name: str, model_choice="rf"):
     }).sort_values(by="Predicted_Effectiveness(%)", ascending=False)
 
     return predicted_drugs
-# -----------------------------
-# STEP 7: Example run
-# -----------------------------
-user_input = input("Enter the Disease: ")
-words = user_input.split()
-capitalized_words = [word.capitalize() for word in words]
-result = " ".join(capitalized_words)
 
-# Run prediction using Random Forest
-predicted_rf = predict_drugs_by_name(result, model_choice="rf")
-
-# Run prediction using SVM
-predicted_svm = predict_drugs_by_name(result, model_choice="svm")
-
-# -----------------------------
-# Random Forest Results
-# -----------------------------
-print(f"\n Predicted Drug Combinations for {user_input} using Random Forest:\n")
-
-print(f"Most Effective Drugs for {user_input} are:")
-effective_rf = predicted_rf.head(2)
-for _, row in effective_rf.iterrows():
-    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
-
-print(f"\nLess Effective Drugs for {user_input} are:")
-less_effect_rf = predicted_rf.tail(2)
-for _, row in less_effect_rf.iterrows():
-    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
-
-# -----------------------------
-# SVM Results
-# -----------------------------
-print(f"\n Predicted Drug Combinations for {user_input} using SVM:\n")
-
-print(f"Most Effective Drugs for {user_input} are:")
-effective_svm = predicted_svm.head(2)
-for _, row in effective_svm.iterrows():
-    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
-
-print(f"\nLess Effective Drugs for {user_input} are:")
-less_effect_svm = predicted_svm.tail(2)
-for _, row in less_effect_svm.iterrows():
-    print(f"{row['Drug Name']} {row['Predicted_Effectiveness(%)']}")
-
-
+# Build disease dictionary for easier input
+unique_diseases = sorted(diseases['Disease'].unique())   # assuming column name is 'Disease'
+disease_dict = {str(i+1): disease for i, disease in enumerate(unique_diseases)}

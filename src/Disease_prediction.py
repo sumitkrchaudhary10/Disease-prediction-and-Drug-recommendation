@@ -122,7 +122,7 @@ symptoms = X.columns.values
 symptom_index = {symptom: idx for idx, symptom in enumerate(symptoms)}
 
 def predict_disease(input_symptoms):
-    input_symptoms = input_symptoms.split(",")
+    # input_symptoms = input_symptoms.split(",")
     input_data = [0] * len(symptom_index)
     
     for symptom in input_symptoms:
@@ -153,35 +153,39 @@ symptoms_list = [
 # Create a dictionary with numbers as keys
 symptom_dict = {str(i+1): symptom for i, symptom in enumerate(symptoms_list)}
 
-if __name__ == "__main__":
-    print("=== Disease Prediction System ===")
-    print("Enter symptom numbers separated by commas (e.g., 1,2,7)")
-    print("Type 'exit' anytime to quit.\n")
+# if __name__ == "__main__":
+#     print("=== Disease Prediction System ===")
+#     print("Enter symptom numbers separated by commas (e.g., 1,2,7)")
+#     print("Type 'exit' anytime to quit.\n")
 
-    # Show available symptoms once at the start
-    for key, val in symptom_dict.items():
-        print(f"{key}: {val}")
+#     # Show available symptoms once at the start
+#     for key, val in symptom_dict.items():
+#         print(f"{key}: {val}")
 
-    while True:
-        user_input = input("\nYour choice: ").strip()
+#     while True:
+#         user_input = input("\nYour choice: ").strip()
 
-        if user_input.lower() == "exit":
-            print("👋 Exiting the system. Stay healthy!")
-            break
+#         if user_input.lower() == "exit":
+#             print("👋 Exiting the system. Stay healthy!")
+#             break
 
-        # Convert numbers to symptom names
-        selected_symptoms = [
-            symptom_dict[num.strip()]
-            for num in user_input.split(",")
-            if num.strip() in symptom_dict
-        ]
+#         # Convert numbers to symptom names
+#         selected_symptoms = [
+#             symptom_dict[num.strip()]
+#             for num in user_input.split(",")
+#             if num.strip() in symptom_dict
+#         ]
 
-        if selected_symptoms:
-            symptom_string = ",".join(selected_symptoms)
-            predictions = predict_disease(symptom_string)
+#         if selected_symptoms:
+#             symptom_string = ",".join(selected_symptoms)
+#             predictions = predict_disease(symptom_string)
 
-            print("\n=== Predictions ===")
-            for model, pred in predictions.items():
-                print(f"{model}: {pred}")
-        else:
-            print("⚠️ Invalid input. Please enter valid numbers.")
+#             print("\n=== Predictions ===")
+#             for model, pred in predictions.items():
+#                 print(f"{model}: {pred}")
+#         else:
+#             print("⚠️ Invalid input. Please enter valid numbers.")
+
+
+
+    
