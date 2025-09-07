@@ -143,4 +143,45 @@ def predict_disease(input_symptoms):
         "SVM Prediction": svm_pred,
         "Final Prediction": final_pred
     }
-print(predict_disease("skin_rash,fever,headache"))
+
+# List of unique symptoms
+symptoms_list = [
+    "fever", "headache", "nausea", "vomiting", "fatigue",
+    "joint_pain", "skin_rash", "cough", "weight_loss", "yellow_eyes"
+]
+
+# Create a dictionary with numbers as keys
+symptom_dict = {str(i+1): symptom for i, symptom in enumerate(symptoms_list)}
+
+if __name__ == "__main__":
+    print("=== Disease Prediction System ===")
+    print("Enter symptom numbers separated by commas (e.g., 1,2,7)")
+    print("Type 'exit' anytime to quit.\n")
+
+    # Show available symptoms once at the start
+    for key, val in symptom_dict.items():
+        print(f"{key}: {val}")
+
+    while True:
+        user_input = input("\nYour choice: ").strip()
+
+        if user_input.lower() == "exit":
+            print("👋 Exiting the system. Stay healthy!")
+            break
+
+        # Convert numbers to symptom names
+        selected_symptoms = [
+            symptom_dict[num.strip()]
+            for num in user_input.split(",")
+            if num.strip() in symptom_dict
+        ]
+
+        if selected_symptoms:
+            symptom_string = ",".join(selected_symptoms)
+            predictions = predict_disease(symptom_string)
+
+            print("\n=== Predictions ===")
+            for model, pred in predictions.items():
+                print(f"{model}: {pred}")
+        else:
+            print("⚠️ Invalid input. Please enter valid numbers.")
