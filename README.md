@@ -9,7 +9,7 @@ Machine Learning based healthcare decision-support: disease prediction + drug re
 ![Disease Distribution](images/disease_distribution.png)
 
 **Confusion Matrix – Random Forest**
-![Random Forest](images/confusion_matrix_rf.png)
+![Random Forest](images/rf_confusion_matrix.png)
 
 **Confusion Matrix – Combined Model**
-![Combined](images/confusion_matrix_combined.png)
+![Combined](/images/combined_confusion_matrix.png)
