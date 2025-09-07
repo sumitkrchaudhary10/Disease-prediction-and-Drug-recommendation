@@ -13,6 +13,3 @@ Machine Learning based healthcare decision-support: disease prediction + drug re
 
 **Confusion Matrix – Combined Model**
 ![Combined](/images/combined_confusion_matrix.png)
-
-**Random Forest vs SVM Performance Comparison**
-![Combined](/images/disease_class_distribution.png)
